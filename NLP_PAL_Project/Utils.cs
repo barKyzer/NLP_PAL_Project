@@ -9,11 +9,10 @@ namespace NLP_PAL_Project
 {
     public class Utils
     {
-        public static int AccessKeyIndex = 0;
         public async static Task<dynamic> MakeRequest(HttpMethod method, string url, dynamic stringContent = null)
         {
             using var client = new HttpClient();
-            //client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", Consts.GptAccessKeys[AccessKeyIndex]);
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", Consts.GptAccessKey);
 
             if (method == HttpMethod.Get)
             {
