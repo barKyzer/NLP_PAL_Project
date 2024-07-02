@@ -1,0 +1,17 @@
+C:\Users\danzl\source\repos\NLP_PAL_Project\NLP_PAL_Project\bin\Debug\net6.0\NLP_PAL_Project.exe
+C:\Users\danzl\source\repos\NLP_PAL_Project\NLP_PAL_Project\bin\Debug\net6.0\NLP_PAL_Project.deps.json
+C:\Users\danzl\source\repos\NLP_PAL_Project\NLP_PAL_Project\bin\Debug\net6.0\NLP_PAL_Project.runtimeconfig.json
+C:\Users\danzl\source\repos\NLP_PAL_Project\NLP_PAL_Project\bin\Debug\net6.0\NLP_PAL_Project.dll
+C:\Users\danzl\source\repos\NLP_PAL_Project\NLP_PAL_Project\bin\Debug\net6.0\NLP_PAL_Project.pdb
+C:\Users\danzl\source\repos\NLP_PAL_Project\NLP_PAL_Project\obj\Debug\net6.0\NLP_PAL_Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danzl\source\repos\NLP_PAL_Project\NLP_PAL_Project\obj\Debug\net6.0\NLP_PAL_Project.AssemblyInfoInputs.cache
+C:\Users\danzl\source\repos\NLP_PAL_Project\NLP_PAL_Project\obj\Debug\net6.0\NLP_PAL_Project.AssemblyInfo.cs
+C:\Users\danzl\source\repos\NLP_PAL_Project\NLP_PAL_Project\obj\Debug\net6.0\NLP_PAL_Project.csproj.CoreCompileInputs.cache
+C:\Users\danzl\source\repos\NLP_PAL_Project\NLP_PAL_Project\obj\Debug\net6.0\NLP_PAL_Project.dll
+C:\Users\danzl\source\repos\NLP_PAL_Project\NLP_PAL_Project\obj\Debug\net6.0\refint\NLP_PAL_Project.dll
+C:\Users\danzl\source\repos\NLP_PAL_Project\NLP_PAL_Project\obj\Debug\net6.0\NLP_PAL_Project.pdb
+C:\Users\danzl\source\repos\NLP_PAL_Project\NLP_PAL_Project\obj\Debug\net6.0\NLP_PAL_Project.genruntimeconfig.cache
+C:\Users\danzl\source\repos\NLP_PAL_Project\NLP_PAL_Project\obj\Debug\net6.0\ref\NLP_PAL_Project.dll
+C:\Users\danzl\source\repos\NLP_PAL_Project\NLP_PAL_Project\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\danzl\source\repos\NLP_PAL_Project\NLP_PAL_Project\obj\Debug\net6.0\NLP_PAL_Project.csproj.AssemblyReference.cache
+C:\Users\danzl\source\repos\NLP_PAL_Project\NLP_PAL_Project\obj\Debug\net6.0\NLP_PAL_Project.csproj.CopyComplete

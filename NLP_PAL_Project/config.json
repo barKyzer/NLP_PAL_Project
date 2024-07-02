@@ -1,0 +1,5 @@
+{
+  "GPT": {
+    "BaseUrl": "https://httpbin.org/get"
+  }
+}
