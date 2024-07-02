@@ -4,3 +4,4 @@ NLP_PAL_Project/config.json
 *.vsidx
 */bin
 */obj
+.vs/NLP_PAL_Project/v17/.suo
