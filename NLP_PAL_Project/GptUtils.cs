@@ -1,11 +1,12 @@
 ﻿using NLP_PAL_Project.Models;
+using System.Data;
 using System.Text;
 
 namespace NLP_PAL_Project
 {
     public class GptUtils
     {
-        public static StringContent GenerateGptRequestBody(RequestCompletionParam param)
+        public static StringContent GenerateGptRequestBody(QuestionObj param)
         {
             StringContent stringContent = new(
                 System.Text.Json.JsonSerializer.Serialize(new
@@ -19,15 +20,28 @@ namespace NLP_PAL_Project
             return stringContent;
         }
 
-        public static List<GptRequestMessageObject> CreateMessageList(RequestCompletionParam param)
+        public static List<GptRequestMessageObject> CreateMessageList(QuestionObj questionObj)
         {
             List<GptRequestMessageObject> messages;
             messages = new List<GptRequestMessageObject> {
-                        GptPromptGenerator(Consts.GptUserRole, Consts.GptExampleQuestionMessage, new string[] {
-                            "1",
-                            "2"
-                        })
-                    };
+               new GptRequestMessageObject {
+                   role = Consts.GptUserRole,
+                   content = questionObj.Intro
+               },
+               new GptRequestMessageObject {
+                   role = Consts.GptUserRole,
+                   content = questionObj.ExampleQuestion
+               },
+               new GptRequestMessageObject {
+                   role = Consts.GptUserRole,
+                   content = questionObj.ExampleAnswer
+               },
+               new GptRequestMessageObject {
+                   role = Consts.GptUserRole,
+                   content = questionObj.RealQuestion
+               }
+            };
+
             return messages;
         }
         public static GptRequestMessageObject GptPromptGenerator(string role, string template, string[]? parameters)

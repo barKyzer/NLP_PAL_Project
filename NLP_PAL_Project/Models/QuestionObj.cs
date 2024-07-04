@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace NLP_PAL_Project.Models
 {
-    internal class QuestionObj
+    public class QuestionObj
     {
         public int Id { get; set; }
-        public int Question { get; set; }
-        public int Answer { get; set; }
+        public string Intro { get; set; }
+        public string ExampleQuestion { get; set; }
+        public string ExampleAnswer { get; set; }
+        public string RealQuestion { get; set; }
     }
 }

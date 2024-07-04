@@ -8,18 +8,39 @@ namespace NLP_PAL_Project
         {
             Consts.Init();
             // Read all prompt data - Bar
-            List<QuestionObj> list = new List<QuestionObj>();
+            List<QuestionObj> questionObjs = new List<QuestionObj> {
+                new QuestionObj
+                {
+                    Id = 1,
+                    Intro = "test",
+                    ExampleQuestion = "q",
+                    ExampleAnswer = "a",
+                    RealQuestion= "qq",
+                },
+                new QuestionObj
+                {
+                    Id = 2,
+                    Intro = "test",
+                    ExampleQuestion = "q",
+                    ExampleAnswer = "a",
+                    RealQuestion= "qq",
+                },
+                new QuestionObj
+                {
+                    Id = 3,
+                    Intro = "test",
+                    ExampleQuestion = "q",
+                    ExampleAnswer = "a",
+                    RealQuestion= "qq",
+                },
+            };
 
-            // Send prompt to GPT and get code - Dan
-
+           
             // Execute code on compilers - Denis
 
             // Get answers from compilers and give scores to languages
 
             // Graphs, stats, etc.
-
-            var ret = await GptLogic.ProcessCompletionRequest(new Models.RequestCompletionParam());
-            Console.WriteLine(ret);
         }
     }
 }
