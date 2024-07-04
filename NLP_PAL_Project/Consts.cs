@@ -1,5 +1,4 @@
 ﻿using Newtonsoft.Json;
-using System.Collections.Generic;
 
 namespace NLP_PAL_Project
 {
@@ -12,12 +11,6 @@ namespace NLP_PAL_Project
         public static string GptAccessKey;
 
         
-        #region GPT message builders
-
-        public static readonly string GptExampleQuestionMessage = "Write python code for calculating {0} + {1}";
-        
-        #endregion
-
         public static void Init()
         {
             config = JsonConvert.DeserializeObject<dynamic>(File.ReadAllText(@"../../../config.json"));
