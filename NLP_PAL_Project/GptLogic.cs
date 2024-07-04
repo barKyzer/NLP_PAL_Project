@@ -7,13 +7,11 @@ namespace NLP_PAL_Project
         public async static Task<GptCompletionResponse> ProcessCompletionRequest(QuestionObj questionObj)
         {
             GptCompletionResponse ret = new GptCompletionResponse();
-            // dynamic response = await Utils.PostRequest(Consts.BaseUrl, GptUtils.GenerateGptRequestBody(questionObj));
-            //ret.Id = response["id"];
-            //ret.Content = response["choices"][0]["message"]["content"];
-            //ret.FinishReason = response["choices"][0]["finish_reason"];
-            //ret.OriginalRequest = questionObj;
-            //return ret;
-            await Task.Delay(3000);
+            dynamic response = await Utils.PostRequest(Consts.BaseUrl, GptUtils.GenerateGptRequestBody(questionObj));
+            ret.Id = response["id"];
+            ret.Content = response["choices"][0]["message"]["content"];
+            ret.FinishReason = response["choices"][0]["finish_reason"];
+            ret.OriginalRequest = questionObj;
             return ret;
         }
 
